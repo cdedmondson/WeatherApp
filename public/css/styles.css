@@ -1,0 +1,66 @@
+body{
+  /* background-color: #487e95; */
+  background: url("/images/rainy-weather-wallpaper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Helvetica Neue Light";
+}
+
+.container-weather{
+  margin-top: 8%;
+  color: white;
+  border-radius: 25px;
+  opacity: 0.7;
+  background-color: black;
+}
+
+.form-control{
+      border: 0;
+      outline: 0;
+      background: transparent;
+      border-bottom: 4px solid #383e56;
+      border-radius: 0;
+      text-align: center;
+      color: black;
+      width: 25%;
+      margin-left: 38%;
+}
+
+.submit-botton{
+  font-weight: bold;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+p{
+  color: #f6f5f5;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.temperature-h1{
+  color: #1687a7;
+  font-weight: bold;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.current-temp-h1{
+  color: #f6f5f5;
+  font-weight: bold;
+  margin-top: 5%;
+  padding-bottom: 0%;
+  margin-bottom: 0;
+}
+
+.target-city-h1{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #32e0c4;
+  font-weight: bold;
+}
